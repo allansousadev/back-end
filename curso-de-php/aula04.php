@@ -5,17 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de PHP</title>
+    <title>Aula04</title>
 </head>
 
 <body>
-    <h1>Me livrei da maldição</h1>
+    <h1>Variáveis em PHP</h1>
     <?php 
+        $nome = "Gustavo";
+        $sobrenome = "Medeiros";
+        const PAIS = "Brasil";
 
-        echo "Hello, world!";
-        print "Me livrei da maldição";
-        echo "\u{1F3E}";
-
+        echo "Muito prazer, $nome $sobrenome! Você mora no " . PAIS;
     ?>
 </body>
 
