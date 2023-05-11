@@ -10,19 +10,13 @@
 
 <body>
     <h1>Tipos primitivos escalares</h1>
-<<<<<<< HEAD
     <?php
-=======
-    <?php 
->>>>>>> develop
     $potencia = 3e2;
 
     var_dump($potencia);
     echo "<br/>";
     echo $potencia;
 
-<<<<<<< HEAD
-=======
     $animals = ["cat", "dog"];
     echo "<br/>";
     echo $animals[0];
@@ -30,13 +24,13 @@
     var_dump($animals);
     echo "<br/>";
 
-    class Pessoa {
+    class Pessoa
+    {
         private string $nome;
     }
-    
+
     $nome = new Pessoa;
     var_dump($nome);
->>>>>>> develop
     ?>
 </body>
 
