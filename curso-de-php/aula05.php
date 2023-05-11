@@ -16,7 +16,20 @@
     var_dump($potencia);
     echo "<br/>";
     echo $potencia;
+
+    $animals = ["cat", "dog"];
+    echo "<br/>";
+    echo $animals[0];
+    echo "<br/>";
+    var_dump($animals);
+    echo "<br/>";
+
+    class Pessoa {
+        private string $nome;
+    }
     
+    $nome = new Pessoa;
+    var_dump($nome);
     ?>
 </body>
 
